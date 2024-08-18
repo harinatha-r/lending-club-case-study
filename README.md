@@ -16,26 +16,47 @@ On the other hand, approving loans for applicants not likely to repay and at ris
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+### Project Information
+
+> The project is a data science project that uses the lending club data set to predict whether a loan will be defaulted or not.
+
+### Project Background
+
+> This company is the largest **online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures**. Borrowers can easily access lower interest rate loans through a fast online interface. Like most other lending companies, lending loans to **‘risky’** applicants is the largest source of financial loss (called credit loss). **Credit loss** is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'.
+
+### Project Statement
+
+> Find the driving factors which lead to the defaulted loans which are major source of loss for the company.
+
+### Data Set
+
+> The data set is a csv file with the loan data for the Lending Club.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Major Driving factor which can be used to predict the chance of defaulting and avoiding Credit Loss:
+  1. DTI
+  2. Grades
+  3. Verification Status
+  4. Annual Income
+  5. Pub_rec_bankruptcies
+- Other considerations for 'defaults' :
+  1. Burrowers from large urban cities like California, New york, Texas, Florida etc.
+  2. Burrowers having annual income in the range 50000-100000.
+  3. Burrowers having Public Recorded Bankruptcy.
+  4. Burrowers with least grades like E,F,G which indicates high risk.
+  5. Burrowers with very high Debt to Income value.
+  6. Burrowers with working experience 10+ years.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Pandas - version 
+- NumPy - version 
+- Seaborn - version 
+- MatplotLib - version 
+- Plotly - version 
+
 
 ## Acknowledgements
 This project was inspired by UpGrad IITB Programme as a case study for the Machine Learning and Artificial Intelligence course.
